@@ -6,7 +6,8 @@ body {
   
   textarea{
     background: transparent;
-    border: none;
+    /* border: solid black 2px; */
+    border-radius: 15px 0px 0px 15px;
     resize: none;
     color: #000000;
     border-left: 1px solid black;
@@ -27,7 +28,7 @@ body {
   
   .time-block{
     text-align: center;
-    border-radius: 15px;
+    /* border-radius: 15px; */
   }
   
   .row {

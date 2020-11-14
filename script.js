@@ -35,108 +35,153 @@ setInterval(function(){
 
 saveBtn9.addEventListener("click", function(event) {
     event.preventDefault();
-    saveBtn9.style.backgroundColor = "#4caf50";
 
     var timeblock9 = {
         description: des9.value,
     };
 
-    localStorage.setItem("timeblock9", JSON.stringify(timeblock9));
+    if (des9.value === "") {
+        alert("Please enter a valid input before saving.");
+    } else {
+        saveBtn9.style.backgroundColor = "#4caf50";
+        localStorage.setItem("timeblock9", JSON.stringify(timeblock9));
+        localStorage.getItem(timeblock9);
+    }
 });
 
 saveBtn10.addEventListener("click", function(event) {
     event.preventDefault();
-    saveBtn10.style.backgroundColor = "#4caf50";
 
         var timeblock10 = {
             description: des10.value,
         };
 
-    localStorage.setItem("timeblock10", JSON.stringify(timeblock10));
+        if (des10.value === "") {
+            alert("Please enter a valid input before saving.");
+        } else {
+            saveBtn10.style.backgroundColor = "#4caf50";
+            localStorage.setItem("timeblock10", JSON.stringify(timeblock10));
+            localStorage.getItem(timeblock10);
+        }
 
 });
 
 saveBtn11.addEventListener("click", function(event) {
     event.preventDefault();
-    saveBtn11.style.backgroundColor = "#4caf50";
 
         var timeblock11 = {
-            description: des10.value,
+            description: des11.value,
         };
 
-    localStorage.setItem("timeblock11", JSON.stringify(timeblock11));
+        if (des11.value === "") {
+            alert("Please enter a valid input before saving.");
+        } else {
+            saveBtn11.style.backgroundColor = "#4caf50";
+            localStorage.setItem("timeblock11", JSON.stringify(timeblock11));
+            localStorage.getItem(timeblock11);
+        }
 
 });
 
 saveBtn12.addEventListener("click", function(event) {
     event.preventDefault();
-    saveBtn12.style.backgroundColor = "#4caf50";
 
         var timeblock12 = {
             description: des12.value,
         };
 
-    localStorage.setItem("timeblock12", JSON.stringify(timeblock12));
+        if (des12.value === "") {
+            alert("Please enter a valid input before saving.");
+        } else {
+            saveBtn12.style.backgroundColor = "#4caf50";
+            localStorage.setItem("timeblock12", JSON.stringify(timeblock12));
+            localStorage.getItem(timeblock12);
+        }
 
 });
 
 saveBtn13.addEventListener("click", function(event) {
     event.preventDefault();
-    saveBtn13.style.backgroundColor = "#4caf50";
 
         var timeblock13 = {
             description: des13.value,
         };
 
-    localStorage.setItem("timeblock13", JSON.stringify(timeblock13));
+        if (des13.value === "") {
+            alert("Please enter a valid input before saving.");
+        } else {
+            saveBtn13.style.backgroundColor = "#4caf50";
+            localStorage.setItem("timeblock13", JSON.stringify(timeblock13));
+            localStorage.getItem(timeblock13);
+        }
 
 });
 
 saveBtn14.addEventListener("click", function(event) {
     event.preventDefault();
-    saveBtn14.style.backgroundColor = "#4caf50";
 
         var timeblock14 = {
             description: des14.value,
         };
 
-    localStorage.setItem("timeblock14", JSON.stringify(timeblock14));
+        if (des14.value === "") {
+            alert("Please enter a valid input before saving.");
+        } else {
+            saveBtn14.style.backgroundColor = "#4caf50";
+            localStorage.setItem("timeblock14", JSON.stringify(timeblock14));
+            localStorage.getItem(timeblock14);
+        }
 
 });
 
 saveBtn15.addEventListener("click", function(event) {
     event.preventDefault();
-    saveBtn15.style.backgroundColor = "#4caf50";
 
         var timeblock15 = {
             description: des15.value,
         };
 
-    localStorage.setItem("timeblock15", JSON.stringify(timeblock15));
+        if (des15.value === "") {
+            alert("Please enter a valid input before saving.");
+        } else {
+            saveBtn15.style.backgroundColor = "#4caf50";
+            localStorage.setItem("timeblock15", JSON.stringify(timeblock15));
+            localStorage.getItem(timeblock15);
+        }
 
 });
 
 saveBtn16.addEventListener("click", function(event) {
     event.preventDefault();
-    saveBtn16.style.backgroundColor = "#4caf50";
 
         var timeblock16 = {
             description: des16.value,
         };
 
-    localStorage.setItem("timeblock16", JSON.stringify(timeblock16));
+        if (des16.value === "") {
+            alert("Please enter a valid input before saving.");
+        } else {
+            saveBtn16.style.backgroundColor = "#4caf50";
+            localStorage.setItem("timeblock16", JSON.stringify(timeblock16));
+            localStorage.getItem(timeblock16);
+        }
 
 });
 
 saveBtn17.addEventListener("click", function(event) {
     event.preventDefault();
-    saveBtn17.style.backgroundColor = "#4caf50";
 
         var timeblock17 = {
             description: des17.value,
         };
 
-    localStorage.setItem("timeblock17", JSON.stringify(timeblock17));
+        if (des17.value === "") {
+            alert("Please enter a valid input before saving.");
+        } else {
+            saveBtn17.style.backgroundColor = "#4caf50";
+            localStorage.setItem("timeblock17", JSON.stringify(timeblock17));
+            localStorage.getItem(timeblock17);
+        }
 
 });
 

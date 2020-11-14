@@ -1,5 +1,18 @@
 $(document).ready(function () {
 
+var saveBtn9 = document.getElementById("saveBtn9");
+var saveBtn10 = document.getElementById("saveBtn10");
+
+var des9 = document.getElementById("des9");
+var des10 = document.getElementById("des10");
+var des11 = document.getElementById("des11");
+var des12 = document.getElementById("des12");
+var des13 = document.getElementById("des13");
+var des14= document.getElementById("des14");
+var des15 = document.getElementById("des15");
+var des16 = document.getElementById("des16");
+var des17 = document.getElementById("des17");
+
 // Setting the current date and time
 function currentTime() {
 var now = moment().format("dddd, MMMM Do YYYY, h:mm:ss a");
@@ -12,79 +25,41 @@ setInterval(function(){
 },1000);
 
 
+saveBtn9.addEventListener("click", function(event) {
+    event.preventDefault();
+    saveBtn9.style.backgroundColor = "#4caf50";
 
-})
+    var timeblock9 = {
+        description: des9.value,
+    };
 
-// // appending all hours of time blocks ~
-// var hour = document.createElement("span");
-// var description = document.createElement("textarea");
-// var saveBtn = document.createElement("button");
-// // var row = document.createElement("div");
-// var container = document.getElementById("container");
+    localStorage.setItem("timeblock9", JSON.stringify(timeblock9));
+});
 
-// var timeblockList = [
-//     {
-//         hour: "9am",
-//         description: "",
-//         saveBtn: "&#xf0c7;"
-//     },
-//     {
-//         hour: "10am",
-//         description: "",
-//         saveBtn: "&#xf0c7;"
-//     },
-//     {
-//         hour: "11am",
-//         description: "",
-//         saveBtn: "&#xf0c7;"
-//     },
-//     {
-//         hour: "12pm",
-//         description: "",
-//         saveBtn: "&#xf0c7;"
-//     },
-//     {
-//         hour: "1pm",
-//         description: "",
-//         saveBtn: "&#xf0c7;"
-//     },
-//     {
-//         hour: "2pm",
-//         description: "",
-//         saveBtn: "&#xf0c7;"
-//     },
-//     {
-//         hour: "3pm",
-//         description: "",
-//         saveBtn: "&#xf0c7;"
-//     },
-//     {
-//         hour: "4pm",
-//         description: "",
-//         saveBtn: "&#xf0c7;"
-//     },
-//     {
-//         hour: "5pm",
-//         description: "",
-//         saveBtn: "&#xf0c7;"
-//     },
-// ]
+saveBtn10.addEventListener("click", function(event2) {
+        event2.preventDefault();
 
-// function renderTimeblocks() {
+    
+        var timeblock10 = {
+            description: des10.value,
+        };
 
-//     hour.setAttribute("class", "hour");
-//     description.setAttribute("class", "description");
 
-//     for (var i = 0; i < timeblockList.length; i++) {
-//         var timeblock = timeblockList[i];
+    localStorage.setItem("timeblock10", JSON.stringify(timeblock10));
 
-//         var div = document.createElement("div");
-//         div.appendChild(hour);
-//         div.innerText = timeblock;
-//         container.appendChild(div);
-//     }
-// }
+    // localStorage.getItem("des9");
 
-// renderTimeblocks();
+});
 
-// 
+
+
+
+
+
+
+
+
+
+
+
+});

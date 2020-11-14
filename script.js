@@ -31,6 +31,12 @@ setInterval(function(){
    currentTime();
 },1000);
 
+var timeblock9 = {
+    description: des9.value,
+};
+
+JSON.parse(localStorage.getItem(timeblock9));
+
 // Saving to localStorage
 
 saveBtn9.addEventListener("click", function(event) {
@@ -45,7 +51,6 @@ saveBtn9.addEventListener("click", function(event) {
     } else {
         saveBtn9.style.backgroundColor = "#4caf50";
         localStorage.setItem("timeblock9", JSON.stringify(timeblock9));
-        localStorage.getItem(timeblock9);
     }
 });
 

@@ -2,6 +2,13 @@ $(document).ready(function () {
 
 var saveBtn9 = document.getElementById("saveBtn9");
 var saveBtn10 = document.getElementById("saveBtn10");
+var saveBtn11 = document.getElementById("saveBtn11");
+var saveBtn12 = document.getElementById("saveBtn12");
+var saveBtn13 = document.getElementById("saveBtn13");
+var saveBtn14 = document.getElementById("saveBtn14");
+var saveBtn15 = document.getElementById("saveBtn15");
+var saveBtn16 = document.getElementById("saveBtn16");
+var saveBtn17 = document.getElementById("saveBtn17");
 
 var des9 = document.getElementById("des9");
 var des10 = document.getElementById("des10");
@@ -24,6 +31,7 @@ setInterval(function(){
    currentTime();
 },1000);
 
+// Saving to localStorage
 
 saveBtn9.addEventListener("click", function(event) {
     event.preventDefault();
@@ -36,22 +44,101 @@ saveBtn9.addEventListener("click", function(event) {
     localStorage.setItem("timeblock9", JSON.stringify(timeblock9));
 });
 
-saveBtn10.addEventListener("click", function(event2) {
-        event2.preventDefault();
+saveBtn10.addEventListener("click", function(event) {
+    event.preventDefault();
+    saveBtn10.style.backgroundColor = "#4caf50";
 
-    
         var timeblock10 = {
             description: des10.value,
         };
 
-
     localStorage.setItem("timeblock10", JSON.stringify(timeblock10));
-
-    // localStorage.getItem("des9");
 
 });
 
+saveBtn11.addEventListener("click", function(event) {
+    event.preventDefault();
+    saveBtn11.style.backgroundColor = "#4caf50";
 
+        var timeblock11 = {
+            description: des10.value,
+        };
+
+    localStorage.setItem("timeblock11", JSON.stringify(timeblock11));
+
+});
+
+saveBtn12.addEventListener("click", function(event) {
+    event.preventDefault();
+    saveBtn12.style.backgroundColor = "#4caf50";
+
+        var timeblock12 = {
+            description: des12.value,
+        };
+
+    localStorage.setItem("timeblock12", JSON.stringify(timeblock12));
+
+});
+
+saveBtn13.addEventListener("click", function(event) {
+    event.preventDefault();
+    saveBtn13.style.backgroundColor = "#4caf50";
+
+        var timeblock13 = {
+            description: des13.value,
+        };
+
+    localStorage.setItem("timeblock13", JSON.stringify(timeblock13));
+
+});
+
+saveBtn14.addEventListener("click", function(event) {
+    event.preventDefault();
+    saveBtn14.style.backgroundColor = "#4caf50";
+
+        var timeblock14 = {
+            description: des14.value,
+        };
+
+    localStorage.setItem("timeblock14", JSON.stringify(timeblock14));
+
+});
+
+saveBtn15.addEventListener("click", function(event) {
+    event.preventDefault();
+    saveBtn15.style.backgroundColor = "#4caf50";
+
+        var timeblock15 = {
+            description: des15.value,
+        };
+
+    localStorage.setItem("timeblock15", JSON.stringify(timeblock15));
+
+});
+
+saveBtn16.addEventListener("click", function(event) {
+    event.preventDefault();
+    saveBtn16.style.backgroundColor = "#4caf50";
+
+        var timeblock16 = {
+            description: des16.value,
+        };
+
+    localStorage.setItem("timeblock16", JSON.stringify(timeblock16));
+
+});
+
+saveBtn17.addEventListener("click", function(event) {
+    event.preventDefault();
+    saveBtn17.style.backgroundColor = "#4caf50";
+
+        var timeblock17 = {
+            description: des17.value,
+        };
+
+    localStorage.setItem("timeblock17", JSON.stringify(timeblock17));
+
+});
 
 
 

@@ -42,7 +42,7 @@ renderNotes14();
 renderNotes15();
 renderNotes16();
 renderNotes17();
-~
+
 function renderNotes9() {
     var des9Note = JSON.parse(localStorage.getItem("timeblock9"));
     des9.textContent = des9Note.description;

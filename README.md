@@ -14,7 +14,7 @@
 
 
 <p>
-    Simply choose a timeblok where you would like to enter an event that you have planned for your day. If you have a meeting at 11am, enter that in and click the save button. Notice that even if you close your browser or refresh, the planned event will still populate in the designated hour.
+    Simply choose a timeblock where you would like to enter an event that you have planned for your day. If you have a meeting at 11am, enter that in and click the save button. Notice that even if you close your browser or refresh, the planned event will still populate in the designated hour.
 </p>
 
 <h2>
